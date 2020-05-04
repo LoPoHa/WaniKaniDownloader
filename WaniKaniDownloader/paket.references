@@ -1,2 +1,5 @@
 ﻿FSharp.Data
 FSharp.Json
+JaggerJo.Avalonia.FuncUI
+JaggerJo.Avalonia.FuncUI.Elmish
+JaggerJo.Avalonia.FuncUI.DSL

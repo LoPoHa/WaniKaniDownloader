@@ -5,8 +5,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Program.fs" />
     <Content Include="paket.references" />
+    <Compile Include="WebAPIs\WaniKani.fs" />
+    <Compile Include="WebAPIs\Marugoto.fs" />
+    <Compile Include="Gui\Settings.fs" />
+    <Compile Include="Gui\Main.fs" />
+    <Compile Include="Program.fs" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>
